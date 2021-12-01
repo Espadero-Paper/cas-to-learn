@@ -12,13 +12,14 @@ var $link;
        // $db = 'capstone';
        // $user = 'root';
         //$pass = '';
-        
+
         $host = 'remotemysql.com';
         $db = '3CTjHrjUyS';
         $user = '3CTjHrjUyS';
         $pass = 'gNOmy0VgtE';
+        $charset = 'utf8mb4';
         // Connect to the database
-        $this->link = mysqli_connect($host, $user, $pass,$db);
+        $this->link = mysqli_connect($host, $user, $pass, $db);
 
     }
     function __destruct() {
