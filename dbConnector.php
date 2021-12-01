@@ -13,7 +13,7 @@ var $link;
        // $user = 'root';
         //$pass = '';
 
-        $host = 'remotemysql.com';
+        $host = 'ns3059021';
         $db = '3CTjHrjUyS';
         $user = '3CTjHrjUyS';
         $pass = 'gNOmy0VgtE';
@@ -29,7 +29,7 @@ var $link;
 function DbConnector(){
 
         // Get the main settings from the array we just loaded
-        $host = 'remotemysql.com';
+        $host = 'ns3059021';
         $db = '3CTjHrjUyS';
         $user = '3CTjHrjUyS';
         $pass = 'gNOmy0VgtE';
