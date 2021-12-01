@@ -14,9 +14,9 @@ var $link;
         //$pass = '';
 
         $host = 'remotemysql.com';
-        $db = '3CTjHrjUyS';
         $user = '3CTjHrjUyS';
         $pass = 'gNOmy0VgtE';
+        $db = '3CTjHrjUyS';
         $charset = 'utf8mb4';
         // Connect to the database
         $this->link = mysqli_connect($host, $user, $pass, $db);
@@ -31,9 +31,9 @@ function DbConnector(){
 
         // Get the main settings from the array we just loaded
         $host = 'remotemysql.com';
-        $db = '3CTjHrjUyS';
         $user = '3CTjHrjUyS';
         $pass = 'gNOmy0VgtE';
+        $db = '3CTjHrjUyS';
 
         // Connect to the database
         $this->link = mysqli_connect($host, $user, $pass,$db);
