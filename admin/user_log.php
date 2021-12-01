@@ -28,7 +28,7 @@
 										</thead>
 										<tbody>
 													<?php
-													$user_query = mysqli_query($conn,"select * from user_log order by user_log_id ")or die(mysqli_error());
+													$user_query = mysqli_query($conn,"SELECT * from user_log order by user_log_id ")or die(mysqli_error());
 													while($row = mysqli_fetch_array($user_query)){
 													$id = $row['user_log_id'];
 													?>
