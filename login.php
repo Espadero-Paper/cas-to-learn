@@ -17,7 +17,7 @@
 		/* teacher */
 		$query_teacher = mysqli_query($conn,"SELECT * FROM teacher WHERE username='$username' AND password='$password'")or die(mysqli_error());
 		$num_row_teacher = mysqli_num_rows($query_teacher);
-		$row_teahcer = mysqli_fetch_array($query_teacher);
+		$row_teacher = mysqli_fetch_array($query_teacher);
 		if( $num_row > 0 ) { 
 		$_SESSION['id']=$row['student_id'];
 		echo 'true_student';	
